@@ -1309,10 +1309,17 @@ body.awsui-polaris-dark-mode.awsui-one-theme,
   background-color: #0b0e14 !important;
 }
 
-/* CloudWatch side navigation section titles are hard-coded #fec61d.
-   Keep them neutral so the active item (Ayu accent) stands out. */
+/* Side navigation section titles ("Instances", "Images", ...) in Ayu accent.
+   1. Cloudscape side navigation (EC2, S3, EKS, ...): colours label and chevron.
+   2. CloudWatch's own side navigation (hard-coded #fec61d). */
+body.awsui-polaris-dark-mode.awsui-one-theme nav [class*="awsui_expand-button_"]:has([class*="awsui_section-header_"]),
 body.awsui-polaris-dark-mode.awsui-one-theme .navigation-header-section-title {
-  color: #e6e1cf !important;
+  color: #e6b450 !important;
+}
+
+/* Side navigation title (service name, e.g. "EC2") in Ayu orange. */
+body.awsui-polaris-dark-mode.awsui-one-theme nav [class*="awsui_header-link_"] {
+  color: #ff8f40 !important;
 }
 
 /* Text selection, as in the editor theme */

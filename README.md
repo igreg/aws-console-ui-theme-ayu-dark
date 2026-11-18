@@ -1,4 +1,4 @@
-# AWS Console: Ayu Dark
+# AWS Console: Ayu Dark theme
 
 User styles that restore colour and the classic typeface to the AWS Management Console.
 

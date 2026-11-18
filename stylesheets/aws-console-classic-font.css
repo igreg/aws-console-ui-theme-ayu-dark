@@ -1,0 +1,33 @@
+/*
+ * AWS Console: classic font
+ * Reverts the "one theme" typeface (Ember Modern Text UI / Ember Modern Mono)
+ * to the previous console fonts: Amazon Ember for text, Monaco/Menlo/Consolas for code.
+ *
+ * Install: Stylus, applies to *.console.aws.amazon.com, with "Apply to iframes" on.
+ * Works in light and dark mode. Independent of aws-console-ayu-dark.css.
+ *
+ * Cloudscape token names carry a per-build hash suffix; builds not seen when this
+ * file was generated keep the new font until it is regenerated.
+ */
+
+body.awsui-one-theme,
+.awsui-one-theme .awsui-context-top-navigation,
+.awsui-one-theme .awsui-context-content-header,
+.awsui-one-theme .awsui-context-app-layout-toolbar {
+  --font-family-base-20lpb5: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif !important;
+  --font-family-base-a5brn0: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif !important;
+  --font-family-base-c9u5cr: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif !important;
+  --font-family-base-gmnpzl: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif !important;
+  --font-family-base-it1iwj: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif !important;
+  --font-family-base-khplu5: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif !important;
+  --font-family-base-xwl3nq: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif !important;
+  --font-family-base-y217xz: "Amazon Ember", "Helvetica Neue", Roboto, Arial, sans-serif !important;
+  --font-family-monospace-2ug2aq: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace !important;
+  --font-family-monospace-7npdfm: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace !important;
+  --font-family-monospace-842lr2: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace !important;
+  --font-family-monospace-98y92e: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace !important;
+  --font-family-monospace-fmojap: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace !important;
+  --font-family-monospace-kmwamq: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace !important;
+  --font-family-monospace-q47m7k: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace !important;
+  --font-family-monospace-xiizv1: Monaco, Menlo, Consolas, "Courier Prime", Courier, "Courier New", monospace !important;
+}

@@ -4,6 +4,22 @@ User styles that restore colour and the classic typeface to the AWS Management C
 
 The console's "one theme" dark mode is almost entirely monochrome. These styles override its Cloudscape design tokens with the [Ayu Dark](https://github.com/ayu-theme/ayu-colors) palette, and optionally swap the new Ember Modern typeface back to the previous console fonts.
 
+![Animated preview of the AWS Console with the Ayu Dark theme](previews/aws-console-ayu-dark-preview.gif)
+
+The same preview is available as a [full resolution video](previews/aws-console-ayu-dark-preview.mp4).
+
+## Screenshots
+
+All account details, resource names and figures in these screenshots are placeholders.
+
+| Console Home | EC2 |
+|---|---|
+| [![Console Home](previews/aws-console-home-dark-ayu.png)](previews/aws-console-home-dark-ayu.png) | [![EC2](previews/aws-console-ec2-dark-ayu.png)](previews/aws-console-ec2-dark-ayu.png) |
+
+| CloudFront | CloudWatch | Aurora and RDS |
+|---|---|---|
+| [![CloudFront](previews/aws-console-cloudfront-dark-ayu.png)](previews/aws-console-cloudfront-dark-ayu.png) | [![CloudWatch](previews/aws-console-cloudwatch-dark-ayu.png)](previews/aws-console-cloudwatch-dark-ayu.png) | [![Aurora and RDS](previews/aws-console-rds-dark-ayu.png)](previews/aws-console-rds-dark-ayu.png) |
+
 ## What is included
 
 | Style | What it does | Applies in |

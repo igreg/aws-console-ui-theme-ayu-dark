@@ -1309,12 +1309,16 @@ body.awsui-polaris-dark-mode.awsui-one-theme,
   background-color: #0b0e14 !important;
 }
 
-/* Side navigation section titles ("Instances", "Images", ...) in Ayu accent.
-   1. Cloudscape side navigation (EC2, S3, EKS, ...): colours label and chevron.
-   2. CloudWatch's own side navigation (hard-coded #fec61d). */
+/* Side navigation section titles ("Instances", "Images", ...) in Ayu orange;
+   the current page keeps the Ayu accent (#e6b450).
+   1. Cloudscape expandable sections (EC2, S3, EKS, ...): label and chevron.
+   2. Cloudscape section groups (Billing and Cost Management, ...).
+   3. CloudWatch's own side navigation (hard-coded #fec61d). */
 body.awsui-polaris-dark-mode.awsui-one-theme nav [class*="awsui_expand-button_"]:has([class*="awsui_section-header_"]),
+body.awsui-polaris-dark-mode.awsui-one-theme nav [class*="awsui_section-group-title_"],
+body.awsui-polaris-dark-mode.awsui-one-theme nav [class*="awsui_section-group-title_"] *,
 body.awsui-polaris-dark-mode.awsui-one-theme .navigation-header-section-title {
-  color: #e6b450 !important;
+  color: #ff8f40 !important;
 }
 
 /* Side navigation title (service name, e.g. "EC2") in Ayu orange. */
